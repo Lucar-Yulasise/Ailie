@@ -16,7 +16,7 @@ def main():
 		info = input("我：")
 		url = 'http://www.tuling123.com/openapi/api?key='+key+'&info='+info
 		word = get_information(url)
-		print("Ailie: "+word)
+		print("艾莉: "+word)
 		
 
 if __name__=='__main__':
